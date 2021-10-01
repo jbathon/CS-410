@@ -4,7 +4,7 @@ public class Worker implements Runnable {
 	private final Thread thread;
 	private Orange o;
 	private volatile boolean timeToWork;
-	private boolean finished;
+	private volatile boolean finished;
 
 	Worker(int threadNum) {
 		o = null;
